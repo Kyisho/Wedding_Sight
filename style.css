@@ -1,0 +1,265 @@
+body
+{
+	margin:0;
+	padding:0;
+	margin:0;
+	padding:0;
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:small;
+	max-width:2000px;
+}
+
+div #header
+{
+	margin:0;
+	padding:0;
+	text-align:center;
+	text-transform:uppercase;
+	background:url("img/Lace-Header-RightC.png") #ffff4c no-repeat top right;
+}
+
+#header h1
+{
+	color:rgba(144, 12, 164, 1);
+	margin:0;
+	font-size:250%;
+	padding:35px 0 30px 0;
+	background:url("img/Lace-Header-leftC.png") no-repeat bottom left;
+}
+
+h1
+{
+	margin:0;
+	padding:0;
+	text-align:center;
+	color:rgba(144, 12, 164, 1);
+	font-size:250%;
+}
+
+p
+{
+	text-align:center;
+	color:#ffff4c;
+}
+
+#wrapper, #wrapperG
+{
+	background:url("img/threecol-r.gif") repeat-y 70% 0,
+			   url("img/threecol-l.gif") repeat-y 28% 0,
+			   #FFFF7F;
+	min-width:1150px;
+}
+
+#mainbody
+{
+	float:left;
+	width:70%;
+}
+
+#center
+{
+	float:right;
+	width:60%;
+	background:url("img/falling_petals.gif") no-repeat;
+	margin: 10px 0 0 0;
+	padding:0;
+}
+
+#center div
+{
+	padding: 0 20px 0 20px;
+}
+
+#left
+{
+	float:left;
+	width:40%;
+}
+
+#left div
+{
+	padding:20px;
+}
+
+
+#right
+{
+	float:right;
+	width:30%;
+}
+
+#right div
+{
+	
+	padding:20px;
+}
+
+div #footer
+{
+	clear:both;
+	margin:0;
+	padding:0;
+	background:#ffff4c;
+}
+#footer p:hover{
+	text-decoration:none; 
+	color:blue;
+}
+
+#footer p
+{
+	color:purple;
+	margin:0;
+	padding:0;
+}
+
+.main
+{
+	display:block;
+	margin:0 auto;
+    width:50%;
+    height:50%;
+}
+
+/*Gallery Page Specific*/
+
+.gallery-row
+{
+	text-align:center;
+	margin:0 auto;
+	padding:0;
+}
+
+dl
+{
+	list-style:none;
+	margin:0 0 10px 0;
+	padding:0;
+	text-align:center;
+	color:#ffff4c;
+}
+
+dd
+{
+	font-size:125%;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:0;
+	padding:0;
+}
+dt
+{
+	margin:0;
+	padding:0;
+	text-align:center;
+	color:#ffff4c;
+}
+
+/******Start tiny calendar *****/
+table#calendar-small
+{
+	border: 1px solid yellow;
+	border-spacing: 0;
+	padding: 0;
+	font-family: Verdana, Helvetica, sans-sarif;
+	width: 100%;
+	float:right;
+}
+
+table#calendar-small a 
+{
+text-decoration: none;
+}
+
+table#calendar-small tr#title th
+{
+	background:#ffff4c;
+	color:hsla(197, 10%, 17%, 0.8);
+	border: 1px solid #000;
+}
+
+table#calendar-small tr#days th
+{
+	color:hsla(197, 10%, 17%, 1); 
+	background-color: #FFFF7F;
+	font-weight: bold; 
+	text-align: center;
+	padding: 1px 0.33em;
+}
+
+table#calendar-small td
+{
+	color:#777; 
+	background-color:white;
+	text-align: right;
+	border:1px solid gray;
+	border-color: #BBB #EEE #EEE #BBB;
+}
+
+table#calendar-small td.sat
+{
+	border-right: 1px solid #BBB
+}
+
+table#calendar-small td a
+{
+	font-weight: bold;
+	display: block; margin: 0;
+}
+
+table#calendar-small a:link
+{
+	color: navy;
+}
+
+table#calendar-small a:visited
+{
+	color:purple;
+}
+
+table#calendar-small #jul04 a:hover
+{
+	background:#ff3232;
+}
+table#calendar-small a:hover
+{	
+	background:purple;
+}
+
+table#calendar-small td.sat, table#calendar-small td.sun
+{
+	color:yellow;
+	background: gray;
+}
+
+table#calendar-small td.jun, table#calendar-small td.aug
+{
+	background:yellow;
+	color:gray;
+	border:1px solid #AAB;
+	border-right-color:#99A;
+}
+table#calendar-small tr#lastweek td
+{
+	border-bottom:2px solid #AAB;
+}
+
+table#calendar-small td.holiday
+{
+	background: #BAAFFA;
+	border-color:#b4affa #c0affa #b4affa #c0affa;
+}
+
+table#calendar-small td#jul18
+{
+	background-color:#FFFF7F;
+	color: #a5a5a5;
+	border: 1px solid black;
+}
+
+table#calendar-small a 
+{
+	text-decoration: none;
+}
+/******End tiny calendar ******/
